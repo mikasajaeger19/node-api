@@ -15,7 +15,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/about', function(req, res){
-    res.send('About Page nigga');
+    res.send('About Page');
 });
 
 app.get('/product', async function(req, res){
